@@ -1,9 +1,9 @@
 /*
--- ===================================================================================
--- Purpose: Create the Bronze layer tables in the 'bronze' schema for the data lake.
---          These tables store raw, unprocessed data from CRM and ERP systems
---          before any transformations are applied in downstream layers.
--- ===================================================================================
+===================================================================================
+Purpose: Create the Bronze layer tables in the 'bronze' schema for the data lake.
+         These tables store raw, unprocessed data from CRM and ERP systems
+         before any transformations are applied in downstream layers.
+===================================================================================
 */
 DROP TABLE IF EXISTS bronze.crm_cust_info;
 CREATE TABLE bronze.crm_cust_info (
